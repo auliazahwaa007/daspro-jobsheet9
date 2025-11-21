@@ -21,7 +21,7 @@ public class SearchNilai07 {
 
         for (int i = 0; i < n; i++){
             if (nilai[i] == key) {
-                System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (i+1));
+                System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (i));
                 found = true;
                 break;
             }
